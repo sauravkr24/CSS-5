@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(86, 228, 233);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-shadow: 2px 2px 15px rgb(37, 34, 34);
+  }
+  .container {
+    display: flex;
+    color: aliceblue;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boxes ol {
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .box {
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .box1 {
+    transition: width 2s;
+  }
+  
+  .box1:hover {
+    width: 30rem;
+  }
+  
+  .box2 {
+    transition: width 2s, height 4s;
+  }
+  
+  .box2:hover {
+    width: 30rem;
+    height: 30rem;
+  }
+  
+  .box3 {
+    transition: width 2s;
+    transition:width 2sec, height 4sec;
+  }
+  
+  .box3:hover {
+    width: 350px;
+    height: 300px;
+    
+  }
+  
+  .box4 {
+    transition: width 2s;
+    transition-timing-function: ease-in;
+  }
+  
+  .box4:hover {
+    width: 30rem;
+  }
+  
+  .box5 {
+    transition: width 2s;
+    transition-timing-function: ease-in;
+  }
+  
+  .box5:hover {
+    width: 30rem;
+  }
+  
+  .box6 {
+    transition: width 2s;
+    transition-timing-function: ease-out;
+  }
+  
+  .box6:hover {
+    width: 30rem;
+  }
+  
+  .box7 {
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .box7:hover {
+    width: 30rem;
+  }
+  
+  a {
+    color: blue;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  a:visited {
+    color: bisque;
+  }
+  
